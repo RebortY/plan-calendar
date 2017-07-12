@@ -11,7 +11,9 @@ interface IContextLifecycle {
 
     /**
      * 绑定view和presenter
-     *
+     * 可以调用
+     * IContextProvider提供的
+     * bindVandP方法返回该实例
      */
     fun bindView(): ViewAndPresenter
 
