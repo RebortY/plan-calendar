@@ -1,6 +1,6 @@
 package com.jingoal.base
 
-interface IView<T>{
+interface IView<in T>{
 
     fun setPresenter(presenter: T?)
 }
